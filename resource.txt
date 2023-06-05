@@ -1,0 +1,22 @@
+Text details
+__________________________________________________________________
+
+font family = Poppins
+font size = 14
+
+////////////////////////////////////////////////////////////////
+banglayout
+
+font family ="Baloo Da 2"
+font size = 20px
+line height = 30
+
+font size = 16px
+line height = 20.8
+
+
+sticky-part: color -> #7d9fc1
+hr -> 0.2rem solid #435a95
+background: #1b2233
+
+icon color #ffffff
