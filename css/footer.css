@@ -7,7 +7,7 @@
 }
 
 body {
-	overflow: hidden;
+	overflow-x: hidden;
 	box-sizing: border-box;
 }
 footer .title {
@@ -99,6 +99,9 @@ footer i {
 .sticky a {
 	color: #7d9fc1;
 }
+.sticky-right {
+	order: 2;
+}
 .sticky-right-rm {
 	margin-right: 1.25rem;
 }
@@ -130,6 +133,6 @@ footer i {
 	}
 	.sticky span {
 		margin-top: 0.5rem;
-		display: block;
+		text-align: center;
 	}
 }
