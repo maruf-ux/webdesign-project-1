@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+	.counter-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 3rem;
+	}
+	.grid-box {
+		padding: 0 0.5rem;
+	}
+	.grid-box-2 {
+		border: none;
+	}
+	.grid-box-1,
+	.grid-box-1 {
+		padding-right: 1rem;
+	}
+	.counter-shape {
+		bottom: 0;
+	}
+}
