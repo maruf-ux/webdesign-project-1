@@ -10,10 +10,14 @@
 		border: none;
 	}
 	.grid-box-1,
-	.grid-box-1 {
-		padding-right: 1rem;
+	.grid-box-3 {
+		margin-right: -1.4rem;
 	}
 	.counter-shape {
-		bottom: 0;
+		height: auto;
+		width: auto;
+	}
+	.box-text {
+		line-height: 1.2;
 	}
 }

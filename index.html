@@ -23,20 +23,95 @@
 			crossorigin="anonymous"
 		/>
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css" />
 		<link rel="stylesheet" href="css/responsive.css">
 	</head>
 
 	<body>
+		<!-- ========== Start pre loader ========== -->
+		<div id="preloader">
+			<div class="loader3">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+ <!-- ========== End pre loader ========== -->
+  <!-- header part start -->
+  <header>
+	<nav class="navbar navbar-expand-lg ">
+		<div class="container">
+
+			<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+
+					<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">কোর্স সমূহ</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">এডমিশন ফর্ম</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">সার্টিফিকেট ভেরিফাই</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">রেজাল্ট</a></li>
+						</ul>
+					</li>
+
+					<li class="nav-item"><a class="nav-link" href="#">যোগাযোগ</a></li>
+
+					<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">এডমিশন</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#">এডমিশন ফর্ম</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">সার্টিফিকেট ভেরিফাই</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<li><a class="dropdown-item" href="#">রেজাল্ট</a></li>
+						</ul>
+					</li>
+
+					<li class="nav-item"><a class="nav-link" href="#">রেজাল্ট </a></li>
+
+				</ul>
+			</div>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 grid-nav">
+					<li class="nav-item nav-gap"><a class="nav-link sign-in" href="#">সাইন ইন</a></li>
+					<li class="nav-divider">|</li>
+					<li class="nav-item nav-gap"><a class="nav-link nav-bg" href="#">সাইন আপ </a></li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+</header>
+<!-- header part end -->
 		<section id="counter">
 			<div class="container bg-counter">
 				<div class="counter-shape">
-					<img src="images/counter-shape.png" alt="counter-shape">
+					<img src="images/counter-shape.png" alt="counter-shape" class="img-fluid">
 				</div>
 				<div class="counter-grid">
 					<div class="grid-box grid-box-1">
 						<div class="box-img">
-							<img src="images/counter-1.png" alt="counter-1s">
+							<img src="images/counter-1.png" alt="counter-1s"  class="img-fluid">
 						</div>
 						<div class="box-text">
 							<span class="strong">
@@ -50,7 +125,7 @@
 
 					<div class="grid-box grid-box-2">
 						<div class="box-img">
-							<img src="images/counter-2.png" alt="counter-2s">
+							<img src="images/counter-2.png" alt="counter-2s"  class="img-fluid">
 						</div>
 						<div class="box-text">
 							<span class="strong">
@@ -64,7 +139,7 @@
 
 					<div class="grid-box grid-box-3">
 						<div class="box-img">
-							<img src="images/counter-3.png" alt="counter-3s">
+							<img src="images/counter-3.png" alt="counter-3s"  class="img-fluid">
 						</div>
 						<div class="box-text">
 							<span class="strong">
@@ -78,7 +153,7 @@
 
 					<div class="grid-box grid-box-4">
 						<div class="box-img">
-							<img src="images/counter-4.png" alt="counter-4s">
+							<img src="images/counter-4.png" alt="counter-4s"  class="img-fluid">
 						</div>
 						<div class="box-text">
 							<span class="strong">
@@ -173,8 +248,10 @@
 			</div>
 		</footer>
 		<!-- ========== End Footer ========== -->
-		
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js" integrity="sha512-TioVFI1HfPAFh7BGAsuCB76vIrmMroWB+yRNKnTan26OBCdpdH9DWYoTxZbjW8kCKH3QDItheAEVso5N7+w75g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+		<!-- Jquery Libraries -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js" integrity="sha512-Pa4Jto+LuCGBHy2/POQEbTh0reuoiEXQWXGn8S7aRlhcwpVkO8+4uoZVSOqUjdCsE+77oygfu2Tl+7qGHGIWsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 
 		<!-- Bootstrap JavaScript Libraries -->
 		<script
@@ -190,7 +267,8 @@
 		></script>
 
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
-		<script src="jquery.counterup.min.js"></script>
+		<!-- Counter js plugins -->
+		<script src="js/jquery.counterup.min.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>
