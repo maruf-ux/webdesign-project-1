@@ -93,38 +93,69 @@ body {
 }
 
 /***** End pre loader *****/
+/***** category *****/
 
+/***** End category *****/
+#category .category-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+
+/***** Other facility *****/
+
+.facility-spacing {
+	background: url(../images/facility-bg.png);
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+	padding: 2.25rem 0;
+}
+#facility .facility-container {
+	margin: 39.5px auto;
+	padding: 1rem 0;
+	width: 60%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.facility-container p {
+	padding: 1.25rem;
+	font-weight: 700;
+}
+/***** End Other facility *****/
 /***** Counter *****/
 #counter .bg-counter {
+	background: url(../images/bg-counter.png);
+	background-position: center center;
+	background-size: cover;
 	position: relative;
-	width: 100%;
 	padding: 4rem 2rem;
 	margin-top: 2rem;
 	margin-bottom: 3rem;
-	border: 1px solid #1e9aff;
-	border-radius: 1.875rem;
-}
-.counter-shape {
-	width: 100%;
-	height: auto;
 	z-index: -1;
-	position: absolute;
-	bottom: -1.75rem;
-	left: -1.75rem;
 }
+
 .counter-grid {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 	height: 100%;
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	align-content: center;
 	justify-content: space-evenly;
+	align-items: baseline;
 	gap: 1rem;
 }
 .grid-box {
 	display: flex;
+	align-items: baseline;
 	justify-content: space-between;
 	padding: 0 4rem;
+	gap: 0.5rem;
 	border-right: 1px solid #d9d9d9;
 }
 .grid-box-4 {
@@ -134,12 +165,17 @@ body {
 	width: 40%;
 }
 .box-text {
-	width: 45%;
+	width: 60%;
 	display: grid;
 	grid-template-rows: repeat(2, 1fr);
+}
+.strong {
+	font-size: 2rem;
+	font-weight: 700;
 }
 .box-text .strong,
 .box-text .bangla {
 	display: block;
 }
+
 /***** End Counter *****/

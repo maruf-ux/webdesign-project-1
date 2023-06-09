@@ -8,6 +8,7 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1, shrink-to-fit=no"
 		/>
+		<!-- Font-awesome v6.2.0 -->
         <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -22,8 +23,11 @@
 			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
 			crossorigin="anonymous"
 		/>
+		<!--Custom CSS  -->
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/common.css">
 		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/course-bundle.css">
 		<link rel="stylesheet" href="css/footer.css" />
 		<link rel="stylesheet" href="css/responsive.css">
 	</head>
@@ -36,35 +40,39 @@
 				<span></span>
 			</div>
 		</div>
- <!-- ========== End pre loader ========== -->
-  <!-- header part start -->
-  <header>
-	<nav class="navbar navbar-expand-lg ">
-		<div class="container">
+		<!-- ========== End pre loader ========== -->
 
-			<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+		<!-- ========== Start Header ========== -->
+		<header>
+			<nav class="navbar navbar-expand-lg ">
+				<div class="container">
+					<a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
 
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-				aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
 
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
 
-					<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+						<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
 							data-bs-toggle="dropdown" aria-expanded="false">কোর্স সমূহ</a>
-						<ul class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">এডমিশন ফর্ম</a></li>
-							<li>
+					<ul class="dropdown-menu">
+						<li>
+							<a class="dropdown-item" href="#">এডমিশন ফর্ম</a>
+						</li>
+						<li>
 								<hr class="dropdown-divider">
-							</li>
-							<li><a class="dropdown-item" href="#">সার্টিফিকেট ভেরিফাই</a></li>
-							<li>
-								<hr class="dropdown-divider">
-							</li>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">সার্টিফিকেট ভেরিফাই</a>
+						</li>
+						<li>
+							<hr class="dropdown-divider">
+						</li>
 							<li><a class="dropdown-item" href="#">রেজাল্ট</a></li>
 						</ul>
 					</li>
@@ -101,72 +109,304 @@
 
 		</div>
 	</nav>
-</header>
-<!-- header part end -->
-		<section id="counter">
-			<div class="container bg-counter">
-				<div class="counter-shape">
-					<img src="images/counter-shape.png" alt="counter-shape" class="img-fluid">
+</header>  
+  <!-- ========== End Header ========== -->
+
+  <!-- ========== Start Category ========== -->
+  <section id="category">
+	<!-- common heading start -->
+	<div class=" bangla-font text-center">
+		<div class="common-heading">
+			<span class="regular">ক্যাটাগরি </span>
+			<span class="bold">পছন্দ করুন</span>
+		</div>
+		<div class="common-hr"></div>
+	</div>
+  	<!-- common heading end -->
+	<div class="category-body container">
+		<div class="category-grid">
+			<div class="category-grid-box category-grid-box1 text-center">
+				<img src="images/catagory1.png" alt="catagory1">
+				<p>গ্রাফিক্স ডিজাইন</p>
+			</div>
+			<div class="category-grid-box category-grid-box2 text-center"><img src="images/catagory2.png" alt="catagory2">
+				<p>ওয়েব ডিজাইন</p>
+			</div>
+			<div class="category-grid-box category-grid-box3 text-center"><img src="images/catagory3.png" alt="catagory3">
+				<p>ওয়েব ডেভলপমেন্ট </p>
+			</div>
+			<div class="category-grid-box category-grid-box4 text-center"><img src="images/catagory4.png" alt="catagory4">
+				<p>ভিডিও এডিটিং</p>
+			</div>
+			<div class="category-grid-box category-grid-box5 text-center"><img src="images/catagory5.png" alt="catagory5">
+				<p>ডিজিটাল মার্কেটিং</p>
+			</div>
+			<div class="category-grid-box category-grid-box6 text-center"><img src="images/catagory6.png" alt="catagory6">
+				<p>ইউ আই/ইউ এক্স ডিজাইন</p>
+			</div>
+			<div class="category-grid-box category-grid-box7 text-center"><img src="images/catagory7.png" alt="catagory7">
+				<p>মাইক্রোসফট অফিস</p>
+			</div>
+			<div class="category-grid-box category-grid-box8 text-center"><img src="images/catagory8.png" alt="catagory8">
+				<p>অ্যাপ ডেভলপমেন্ট </p>
+			</div>
+		</div>
+	</div>
+  </section>
+  
+
+  	<!-- ========== End Category ========== -->
+
+	<!-- ========== Start Other facility ========== -->
+	<section id="facility">
+		
+	<div class="container facility">
+		<div class="facility-spacing">
+			<!-- common heading start -->
+			<div class=" bangla-font text-center">
+			<div class="common-heading">
+				<span class="regular">অন্যান্য </span>
+				<span class="bold">সুবিধা সমূহ</span>
+			</div>
+			<div class="common-hr spacing-extra-facility"></div>
+		</div><!-- common heading end -->
+		<div class="facility-container">
+			<div class="facility-box facility-box1 text-center">
+				<img src="images/Other-facilites-1.png" alt="Other-facility-1" >
+				<p class="bangla-font ">জব খুজুন</p>
+			</div>
+			<div class="facility-box facility-box2 text-center">
+				<img src="images/Other-facilites-2.png" alt="Other-facility-2">
+				<p class="bangla-font ">কোর্স  সমূহ</p>
+			</div>
+			<div class="facility-box facility-box3 text-center">
+				<img src="images/Other-facilites-3.png" alt="Other-facility-3">
+				<p class="bangla-font ">ফ্রীলান্সিং</p>
+			</div>
+		</div>		
+		</div>
+		</div>
+	</section>
+	
+	<!-- ========== End Other facility ========== -->
+
+	<!-- ========== Start Counter ========== -->
+<section id="counter">
+	<div class="container bg-counter">
+		
+		<div class="counter-grid ">
+			<div class="grid-box grid-box-1">
+				<div class="box-img">
+					<img src="images/counter-1.png" alt="counter-1s"  class="img-fluid">
 				</div>
-				<div class="counter-grid">
-					<div class="grid-box grid-box-1">
-						<div class="box-img">
-							<img src="images/counter-1.png" alt="counter-1s"  class="img-fluid">
-						</div>
-						<div class="box-text">
-							<span class="strong">
-								<span class="counter">80</span> +
-							</span> 
-							<span class="bangla">
-								লাইভ ক্লাস
-							</span>
-						</div>
-					</div>
+				<div class="box-text bangla-font">
+					<span class="strong">
+						<span class="counter">80</span> +
+					</span> 
+					<span class="bangla">
+						লাইভ ক্লাস
+					</span>
+				</div>
+			</div>
 
-					<div class="grid-box grid-box-2">
-						<div class="box-img">
-							<img src="images/counter-2.png" alt="counter-2s"  class="img-fluid">
-						</div>
-						<div class="box-text">
-							<span class="strong">
-								<span class="counter">120</span> +
-							</span> 
-							<span class="bangla">
-								মোট কোর্স
-							</span>
-						</div>
-					</div>
+			<div class="grid-box grid-box-2">
+				<div class="box-img">
+					<img src="images/counter-2.png" alt="counter-2s"  class="img-fluid">
+				</div>
+				<div class="box-text bangla-font">
+					<span class="strong">
+						<span class="counter">120</span> +
+					</span> 
+					<span class="bangla">
+						মোট কোর্স
+					</span>
+				</div>
+			</div>
 
-					<div class="grid-box grid-box-3">
-						<div class="box-img">
-							<img src="images/counter-3.png" alt="counter-3s"  class="img-fluid">
-						</div>
-						<div class="box-text">
-							<span class="strong">
-								<span class="counter">115</span> +
-							</span> 
-							<span class="bangla">
-								প্রশিক্ষক 
-							</span>
-						</div>
-					</div>
+			<div class="grid-box grid-box-3">
+				<div class="box-img">
+					<img src="images/counter-3.png" alt="counter-3s"  class="img-fluid">
+				</div>
+				<div class="box-text bangla-font">
+					<span class="strong">
+						<span class="counter">115</span> +
+					</span> 
+					<span class="bangla">
+						প্রশিক্ষক 
+					</span>
+				</div>
+			</div>
 
-					<div class="grid-box grid-box-4">
-						<div class="box-img">
-							<img src="images/counter-4.png" alt="counter-4s"  class="img-fluid">
+			<div class="grid-box grid-box-4">
+				<div class="box-img">
+					<img src="images/counter-4.png" alt="counter-4s"  class="img-fluid">
+				</div>
+				<div class="box-text bangla-font">
+					<span class="strong">
+						<span class="counter">4000</span> 
+						<span class="extra">+</span>
+					</span> 
+					<span class="bangla">
+						প্রশিক্ষনার্থী
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+		<!-- ========== End Counter ========== -->
+
+  	<!-- ========== Start course-bundle section ========== -->
+<section id="course-bundle">
+	<div class=" bangla-font text-center">
+		<div class="common-heading">
+			<span class="regular">কোর্স </span><span class="bold">বান্ডেল সমূহ</span>
+		</div>
+		<div class="common-hr"></div>
+	</div>
+	<div class="container">
+	<!-- card section -->
+	<div class="course-bundle-grid">
+		<div class=" course-bundle-box course-bundle-box-1">
+			<div class="card-img-course-bundle w-100 img-fluid"><img src="images/course-bundle-img.png"  alt"course-bundle-img">
+			</div>
+			<div class="card-body-course-bundle">
+				<p class="bangla-font">গ্রাফিক্স ডিজাইন ও ফ্রিলান্সিং ফুল কোর্স</p>
+				<div class="course-preview">
+					<div class="preview-up">
+						<div class="star-review">
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
 						</div>
-						<div class="box-text">
-							<span class="strong">
-								<span class="counter">4000</span> +
-							</span> 
-							<span class="bangla">
-								প্রশিক্ষনার্থী
-							</span>
+						<span class="zero">(0)</span>
+						<div class="price bangla-font">3000 টাকা</div>
+					</div>
+					<div class="preview-hr"></div>
+					<div class="preview-down">
+						<div class="down-rounded"></div>
+						<div class="down-trainer">
+							<div class="trainer bangla-font">প্রশিক্ষক</div>
+							<div class="name">Md. Saiful Islam</div>
+						</div>
+						
+						<div class="down-time">
+							<div class="class bangla-font">মোট ক্লাস টাইম</div>
+							<div class="time">12H : 30M</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+		<div class=" course-bundle-box course-bundle-box-2">
+			<div class="card-img-course-bundle w-100 img-fluid"><img src="images/course-bundle-img.png"class=  alt"course-bundle-img">
+			</div>
+			<div class="card-body-course-bundle">
+				<p class="bangla-font">গ্রাফিক্স ডিজাইন ও ফ্রিলান্সিং ফুল কোর্স</p>
+				<div class="course-preview">
+					<div class="preview-up">
+						<div class="star-review">
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+						</div>
+						<span class="zero">(0)</span>
+						<div class="price bangla-font">3000 টাকা</div>
+					</div>
+					<div class="preview-hr"></div>
+					<div class="preview-down">
+						<div class="down-rounded"></div>
+						<div class="down-trainer">
+							<div class="trainer bangla-font">প্রশিক্ষক</div>
+							<div class="name">Md. Saiful Islam</div>
+						</div>
+						
+						<div class="down-time">
+							<div class="class bangla-font">মোট ক্লাস টাইম</div>
+							<div class="time">12H : 30M</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class=" course-bundle-box course-bundle-box-3">
+			<div class="card-img-course-bundle w-100 img-fluid"><img src="images/course-bundle-img.png"class=  alt"course-bundle-img">
+			</div>
+			<div class="card-body-course-bundle">
+				<p class="bangla-font">গ্রাফিক্স ডিজাইন ও ফ্রিলান্সিং ফুল কোর্স</p>
+				<div class="course-preview">
+					<div class="preview-up">
+						<div class="star-review">
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+						</div>
+						<span class="zero">(0)</span>
+						<div class="price bangla-font">3000 টাকা</div>
+					</div>
+					<div class="preview-hr"></div>
+					<div class="preview-down">
+						<div class="down-rounded"></div>
+						<div class="down-trainer">
+							<div class="trainer bangla-font">প্রশিক্ষক</div>
+							<div class="name">Md. Saiful Islam</div>
+						</div>
+						
+						<div class="down-time">
+							<div class="class bangla-font">মোট ক্লাস টাইম</div>
+							<div class="time">12H : 30M</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class=" course-bundle-box course-bundle-box-4">
+			<div class="card-img-course-bundle w-100 img-fluid"><img src="images/course-bundle-img.png" alt="course-bundle-img">
+			</div>
+			<div class="card-body-course-bundle">
+				<p class="bangla-font">গ্রাফিক্স ডিজাইন ও ফ্রিলান্সিং ফুল কোর্স</p>
+				<div class="course-preview">
+					<div class="preview-up">
+						<div class="star-review">
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+							<i class="fas fa-light fa-star"></i>
+						</div>
+						<span class="zero">(0)</span>
+						<div class="price bangla-font">3000 টাকা</div>
+					</div>
+					<div class="preview-hr"></div>
+					<div class="preview-down">
+						
+						<div class="down-rounded"></div>
+						<div class="down-trainer">
+							<div class="trainer bangla-font">প্রশিক্ষক</div>
+							<div class="name">Md. Saiful Islam</div>
+						</div>
+						
+						<div class="down-time">
+							<div class="class bangla-font">মোট ক্লাস টাইম</div>
+							<div class="time">12H : 30M</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	</div>
+	
+</section>
+		<!-- ========== End course-bundle section ========== -->
+
 		<!-- ========== Start Footer ========== -->
 		
 	<footer class="footer footer-bg-blue footer-color py-5">
@@ -247,6 +487,7 @@
 				
 			</div>
 		</footer>
+
 		<!-- ========== End Footer ========== -->
 
 		<!-- Jquery Libraries -->
@@ -265,7 +506,6 @@
 			integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
 			crossorigin="anonymous"
 		></script>
-
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 		<!-- Counter js plugins -->
 		<script src="js/jquery.counterup.min.js"></script>

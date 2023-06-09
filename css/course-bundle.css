@@ -1,0 +1,63 @@
+/***** bs-5 property modify *****/
+.card {
+	border: none;
+	width: auto;
+}
+/***** End bs-5 property modify *****/
+.card-body p {
+	font-weight: 500;
+}
+.course-bundle-grid {
+	margin-top: 6rem;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 4.125rem;
+}
+.star-review {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+}
+.preview-up {
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: auto 1.5rem 1fr;
+}
+.zero {
+	margin-left: 5px;
+	line-height: 1rem;
+}
+.price {
+	text-align: right;
+	color: #00afff;
+	font-weight: 700;
+}
+.preview-hr {
+	width: 100%;
+	height: 1px;
+	background: #d9d9d9;
+	margin-top: 1rem;
+	margin-bottom: 0.625rem;
+}
+.preview-down {
+	display: grid;
+	grid-template-columns: 2rem auto auto;
+	align-items: center;
+	align-items: space-between;
+}
+.preview-down .down-rounded {
+	background: #d9d9d9;
+	height: 1.875rem;
+	width: 1.875rem;
+	border-radius: 50%;
+	margin-left: -0.25rem;
+}
+.trainer,
+.class {
+	color: #9c9999;
+	font-weight: 500;
+}
+
+.down-time {
+	text-align: right;
+	border-left: 1px solid #999999;
+}

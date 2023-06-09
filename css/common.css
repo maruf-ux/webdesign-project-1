@@ -1,0 +1,18 @@
+.bangla-font {
+	font-family: 'Baloo Da 2', cursive;
+}
+.common-heading {
+	margin: 0 auto;
+	font-size: 2.75rem;
+}
+.common-heading .bold {
+	font-weight: 700;
+}
+.common-hr {
+	width: 6.75rem;
+	height: 1.3125rem;
+	margin: 0 auto;
+	margin-top: 0.625rem;
+	border: 1px solid #2ba6de;
+	border-radius: 0.625rem;
+}
