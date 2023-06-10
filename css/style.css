@@ -93,24 +93,80 @@ body {
 }
 
 /***** End pre loader *****/
-/***** category *****/
 
-/***** End category *****/
+/***** category *****/
 #category .category-grid {
+	margin-top: 4rem;
 	display: grid;
+	gap: 3rem;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 }
+.category-grid-box {
+	border-radius: 5px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+	padding: 1.5rem;
+	width: 200px;
+	max-height: 200px;
+	position: relative;
+}
+.category-grid-box:hover {
+	padding: 1.5rem;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+	background: url(../images/category-card-hover-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	transition: all linear 1s;
+	bottom: 0;
+	right: 0;
+}
+.category-grid-box p {
+	text-align: baseline;
+}
+.category-grid-box .semi-bold {
+	font-weight: 600;
+}
+.category-grid-box .regular {
+	font-weight: 500;
+}
+.category-box-spacing {
+	margin: 0 auto;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.category-box-spacing img {
+	width: 75%;
+}
+/***** End category *****/
 
 /***** Other facility *****/
-
-.facility-spacing {
-	background: url(../images/facility-bg.png);
-	background-position: center center;
-	background-size: cover;
+#facility .facility {
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+}
+#facility .background-facility {
 	position: relative;
-	z-index: -1;
-	padding: 2.25rem 0;
+	width: 100%;
+	height: auto;
+}
+.facility-spacing {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin-top: 1rem;
 }
 #facility .facility-container {
 	margin: 39.5px auto;
@@ -126,21 +182,27 @@ body {
 	font-weight: 700;
 }
 /***** End Other facility *****/
+
 /***** Counter *****/
 #counter .bg-counter {
-	background: url(../images/bg-counter.png);
-	background-position: center center;
-	background-size: cover;
 	position: relative;
-	padding: 4rem 2rem;
+	width: 100%;
+	padding: 3rem 0;
 	margin-top: 2rem;
 	margin-bottom: 3rem;
-	z-index: -1;
 }
-
+.counter-shape {
+	background: url(../images/cardgroup-area-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
 .counter-grid {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+	padding: 1.5rem 0;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
 	height: 100%;
 	width: 100%;
 	display: grid;
@@ -177,5 +239,3 @@ body {
 .box-text .bangla {
 	display: block;
 }
-
-/***** End Counter *****/
