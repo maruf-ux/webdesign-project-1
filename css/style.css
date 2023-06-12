@@ -150,6 +150,20 @@ body {
 }
 /***** End category *****/
 
+/***** Community Section *****/
+#community {
+	margin: 4rem 0;
+}
+.community-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: grid;
+	place-items: center;
+}
+/***** End Community Section *****/
 /***** Other facility *****/
 #facility .facility {
 	margin-top: 4rem;
@@ -239,3 +253,50 @@ body {
 .box-text .bangla {
 	display: block;
 }
+/***** Recommendation *****/
+#recommendation {
+	margin: 2rem 0;
+}
+#recommendation .recommendation {
+	display: flex;
+	align-items: center;
+}
+.recommendation-left {
+	margin-left: 1rem;
+	position: relative;
+}
+.recommendation-left .recommendation-heading span {
+	font-size: 35px;
+	line-height: 1;
+}
+.recommendation-left::before {
+	height: 1px;
+	width: 25%;
+	background-color: #9f9f9f;
+	content: '';
+	position: absolute;
+	top: -33px;
+	left: -17px;
+}
+.recommendation-left::after {
+	height: 85px;
+	width: 1px;
+	background-color: #9f9f9f;
+	content: '';
+	position: absolute;
+	top: -32px;
+	left: -17px;
+}
+.recommendation-left h1 {
+	font-size: 50px;
+	color: #00a3ff;
+}
+.recommendation-pera {
+	width: 75%;
+	margin: 1rem 0 5.4rem;
+	font-size: 18px;
+	color: #676a6c;
+	text-align: baseline;
+}
+
+/***** End Recommendation *****/

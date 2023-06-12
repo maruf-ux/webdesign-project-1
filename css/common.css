@@ -1,6 +1,54 @@
 .bangla-font {
 	font-family: 'Baloo Da 2', cursive;
 }
+.bangla-font-regular {
+	font-family: 'Baloo Da 2', cursive;
+	font-weight: 400;
+}
+.bangla-font-semibold {
+	font-family: 'Baloo Da 2', cursive;
+	font-weight: 600;
+}
+.bangla-font-bold {
+	font-family: 'Baloo Da 2', cursive;
+	font-weight: 700;
+}
+.btn-primary {
+	border: none;
+	background: #00a3ff;
+	padding: 12px 32px;
+	line-height: 2rem;
+}
+
+.common-flex {
+	display: flex;
+	gap: 2rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.left-common-flex {
+	width: 35%;
+}
+.right-common-flex {
+	width: 55%;
+}
+.common-flex-image {
+	position: relative;
+}
+.common-flex-heading {
+	font-size: 40px;
+}
+.common-flex-heading span {
+	color: #00a3ff;
+}
+.common-flex-para {
+	width: 70%;
+	line-height: 1.6;
+	color: #676a6c;
+	padding: 1.5rem 0;
+	font-size: 20px;
+}
+
 .common-heading {
 	margin: 0 auto;
 	font-size: 2.75rem;
