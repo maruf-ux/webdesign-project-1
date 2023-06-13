@@ -64,3 +64,19 @@
 	border: 1px solid #2ba6de;
 	border-radius: 0.625rem;
 }
+.owl-prev {
+	position: absolute;
+	top: 50%;
+	left: -2%;
+	padding: 10px 10px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.owl-next {
+	position: absolute;
+	top: 50%;
+	right: -2%;
+	padding: 10px 10px;
+	border-radius: 50%;
+	background-color: #fff;
+}

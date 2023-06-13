@@ -94,6 +94,78 @@ body {
 
 /***** End pre loader *****/
 
+/***** Hero Section *****/
+/* hero search section */
+#hero .hero-search-box {
+	padding: 3px 0;
+	height: auto;
+	position: relative;
+	width: 40%;
+	margin: 0 auto;
+}
+form .form-control {
+	width: 100%;
+	height: 48px;
+	padding-left: 56px;
+	border-radius: 1.5rem;
+}
+form a {
+	position: absolute;
+	top: 10px;
+	left: 26px;
+}
+/* hero main section */
+.hero-main {
+	margin: 2rem 0;
+	display: flex;
+	justify-content: center;
+}
+.hero-main-heading {
+	line-height: 1.4;
+	font-size: 40px;
+}
+.hero-main h1 {
+	padding: 0.5rem 0;
+	font-size: 48px;
+	background: linear-gradient(#159dff, #004a80);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.hero-main-pera {
+	margin: 2rem 0;
+	color: #425466;
+	width: 80%;
+}
+.hero-main-btn {
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+}
+/* hero card Section */
+.hero-card-grid {
+	width: 100%;
+	display: grid;
+	gap: 1.8rem;
+	grid-template-columns: repeat(4, 1fr);
+	align-items: baseline;
+}
+.hero-card-text {
+	border: 1px solid black;
+	padding: 32px 0;
+	padding-left: 22px;
+	border-radius: 12px;
+}
+.hero-card-box {
+	margin: 3rem 0 1rem;
+	position: relative;
+}
+.hero-card-img {
+	position: absolute;
+	top: -60px;
+	right: -12px;
+}
+/***** End Hero Section *****/
+
 /***** category *****/
 #category .category-grid {
 	margin-top: 4rem;
@@ -162,6 +234,9 @@ body {
 	width: 100%;
 	display: grid;
 	place-items: center;
+}
+.community-para {
+	width: 81%;
 }
 /***** End Community Section *****/
 /***** Other facility *****/
@@ -300,3 +375,57 @@ body {
 }
 
 /***** End Recommendation *****/
+
+/***** Subscribe Section *****/
+#subscribe {
+	position: relative;
+	padding: 1rem 0;
+}
+.subs-flex {
+	padding: 25px 20px 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 85%;
+	margin: 0 auto;
+	border: 1px solid #00a3ff;
+	border-radius: 2rem;
+}
+.subs-left {
+	width: 50%;
+	font-size: 30px;
+}
+.subs-left h3 {
+	padding: 0.5rem 0;
+	background: linear-gradient(#159dff, #004a80);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 45px;
+}
+.subs-right {
+	position: relative;
+	width: 50%;
+}
+.subs-right .form-control {
+	height: 3rem;
+}
+.subs-btn {
+	height: 3rem;
+	width: 9rem;
+	border-radius: 24px;
+	line-height: 2rem;
+	background: #00a3ff;
+	position: absolute;
+	top: -1px;
+	right: -1rem;
+}
+.subs-btn:hover {
+	background: #159dff !important;
+}
+.subs-btn a {
+	color: white;
+}
+.subs-btn a:hover {
+	color: white;
+}
+/***** End Subscribe Section *****/
