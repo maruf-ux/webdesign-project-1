@@ -1,5 +1,6 @@
 /* header part start */
 header {
+	margin: 2rem 0;
 	background: #ffffff;
 	position: sticky;
 	top: 0;
@@ -58,7 +59,16 @@ header {
 .navbar-nav .nav-item .nav-bg:hover {
 	color: white;
 }
-
+.header-middle-alignment {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin-left: 7rem;
+}
+.right-heading-spacing {
+	max-width: 275px;
+}
 /* sign up/in part end */
 
 /* header part end */
@@ -67,9 +77,19 @@ header {
 	.nav-item .nav-link {
 		text-align: center;
 	}
+	.right-heading-spacing {
+		max-width: 100%;
+	}
+	.hero-main-pera {
+		width: 100%;
+	}
+	.hero-main-btn {
+		gap: 1rem;
+	}
 }
 .grid-nav {
 	display: grid;
 	grid-template-columns: 1fr 1px 1fr;
 }
+
 /***** End responsive *****/

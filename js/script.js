@@ -1,13 +1,12 @@
-    // Pre loader
+
+  // Pre loader
 $(window).on('load', function(){
     $("#preloader").delay(700).fadeOut("slow");
 });
-// counter for counter section
-jQuery(document).ready(function($) {
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
-    });
+
+$('.counter').counterUp({
+    delay: 10,
+    time: 1000
 });
 //  Slider
 $('.owl-carousel').owlCarousel({
@@ -31,3 +30,4 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+

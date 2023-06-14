@@ -13,6 +13,15 @@
 	grid-template-columns: repeat(4, 1fr);
 	gap: 4.125rem;
 }
+.course-bundle-box {
+	margin: 0px 8px;
+	border: 1px solid #00afff;
+	border-radius: 16px;
+	overflow: hidden;
+}
+.card-body-course-bundle {
+	padding: 0.5rem;
+}
 .star-review {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -40,7 +49,7 @@
 }
 .preview-down {
 	display: grid;
-	grid-template-columns: 2rem auto auto;
+	grid-template-columns: 2.5rem auto auto;
 	align-items: center;
 	align-items: space-between;
 }
@@ -49,7 +58,6 @@
 	height: 1.875rem;
 	width: 1.875rem;
 	border-radius: 50%;
-	margin-left: -0.25rem;
 }
 .trainer,
 .class {
@@ -60,4 +68,9 @@
 .down-time {
 	text-align: right;
 	border-left: 1px solid #999999;
+}
+@media (max-width: 768px) {
+	.course-bundle-grid {
+		margin-top: 1rem;
+	}
 }
