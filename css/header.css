@@ -86,6 +86,9 @@ header {
 	.hero-main-btn {
 		gap: 1rem;
 	}
+	.header-middle-alignment {
+		margin-left: 0;
+	}
 }
 .grid-nav {
 	display: grid;

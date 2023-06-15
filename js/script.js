@@ -1,16 +1,16 @@
 
-  // Pre loader
+//   Pre loader
 $(window).on('load', function(){
     $("#preloader").delay(700).fadeOut("slow");
 });
 
-$('.counter').counterUp({
-    delay: 10,
-    time: 1000
-});
+// $('.counter').counterUp({
+//     delay: 10,
+//     time: 1000
+// });
 //  Slider
 $('.owl-carousel').owlCarousel({
-    autoplay: true,
+    infinity: true,
     loop:true,
     margin:10,
     responsiveClass:true,
@@ -29,5 +29,18 @@ $('.owl-carousel').owlCarousel({
             loop:false
         }
     }
-})
+});
+$(function(){
+    $('.counter-1').counto(80, 10000);
+  });
+$(function(){
+    $('.counter-2').counto(120, 10000);
+});
+$(function(){
+    $('.counter-3').counto(115, 10000);
+});
+$(function(){
+    $('.counter-4').counto(4000, 10000);
+});
 
+AOS.init();

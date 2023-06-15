@@ -8,7 +8,7 @@
 	font-weight: 500;
 }
 .course-bundle-grid {
-	margin-top: 6rem;
+	margin-top: 3rem;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 4.125rem;
