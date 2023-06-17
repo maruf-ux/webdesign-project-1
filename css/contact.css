@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;600;700&display=swap');
+.contact-heading h2 {
+	font-size: 45px;
+	font-weight: 700;
+	background: linear-gradient(#429ff4, #1777d0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+:root {
+	--color1: #636363;
+}
+.contact-heading p {
+	width: 53%;
+	line-height: 1.7;
+	margin: 1.5rem 0;
+	color: var(--color1);
+}
+.contact-map {
+	display: flex;
+}
