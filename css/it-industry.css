@@ -1,0 +1,53 @@
+.it-industry-hr {
+	background: #cbcbcb;
+	margin: 1.8rem auto;
+	height: 2px;
+	width: 60%;
+}
+.student-grid-page {
+	margin: 3rem auto;
+}
+.pagination {
+	display: flex;
+	justify-content: space-between;
+}
+.pagination-hr {
+	margin-top: 14px;
+	height: 2px;
+	width: 27%;
+	background: #c7c7c7;
+}
+.middle-pagination {
+	width: 45%;
+	justify-content: center;
+	align-items: baseline;
+	display: flex;
+	gap: 1rem;
+}
+
+.middle-pagination-element {
+	text-align: center;
+	height: 2rem;
+	width: 2rem;
+	line-height: 1.7rem;
+	font-size: 14px;
+	border-radius: 50%;
+	border: 1px solid #d9d9d9;
+	cursor: pointer;
+}
+.middle-pagination-element:hover {
+	background-color: #4da1fa;
+	color: #cbcbcb;
+}
+@media (max-width: 768px) {
+	.pagination {
+		display: block;
+	}
+	.pagination-hr {
+		display: none;
+	}
+	.middle-pagination {
+		width: 100%;
+		gap: 0.5rem;
+	}
+}

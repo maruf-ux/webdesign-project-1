@@ -1,0 +1,14 @@
+.student-feedback-video {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.feedback-container {
+	position: relative;
+	aspect-ratio: 16/9;
+}
+.feedback-play-btn {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}

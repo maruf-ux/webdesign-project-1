@@ -150,6 +150,12 @@ form a {
 	grid-template-columns: repeat(4, 1fr);
 	align-items: baseline;
 }
+.hero-card-box a {
+	color: black;
+}
+.hero-card-box a:hover {
+	color: #425466;
+}
 .hero-card-text {
 	border: 1px solid #00a3ff;
 	padding: 32px 0;

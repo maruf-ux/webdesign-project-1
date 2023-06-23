@@ -1,0 +1,70 @@
+.student-tab-part .nav-item .nav-link {
+	color: #000000;
+	font-weight: 500;
+	font-family: 'Baloo Da 2', cursive;
+	padding: 16px;
+}
+.nav-tabs .nav-link {
+	border: none;
+	border-bottom: 1px solid white;
+}
+.student-tab-part .nav-item .active {
+	border-bottom: 4px solid #00a3ff;
+	color: #00a3ff;
+}
+.student-tab-part .nav-item:hover {
+	border-bottom: 4px solid #00a3ff;
+	color: #00a3ff;
+}
+.student-grid-page {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1rem;
+}
+.student-box {
+	position: relative;
+	aspect-ratio: 16/9;
+}
+.inner-box {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* common heading */
+.student-common-heading {
+	background: linear-gradient(#429ff4, #1777d0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0 auto;
+	font-size: 30px;
+}
+.student-common-heading .bold {
+	font-weight: 700;
+}
+.student-common-hr {
+	margin-top: -4px;
+}
+.student-body {
+	color: #515151;
+	line-height: 30px;
+	text-align: center;
+	margin: 32px auto;
+	width: 74%;
+}
+.spacing-student-tab {
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+}
+.student-margin-top {
+	margin-top: 4rem;
+}
+@media (max-width: 768px) {
+	.student-grid-page {
+		grid-template-columns: 1fr;
+	}
+	.student-body {
+		width: 90%;
+	}
+}
