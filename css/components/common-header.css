@@ -1,0 +1,10 @@
+.common-heading {
+	margin: 0 auto;
+	font-size: clamp(2.5rem 2rem 1.5rem);
+}
+.common-heading .bold {
+	font-weight: 700;
+}
+.common-hr {
+	background-image: url(../../images/common-hr.png);
+}

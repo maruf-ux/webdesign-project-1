@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Poppins&display=swap');
+
+:root {
+	--banglaFont: 'Baloo Da 2', cursive;
+	--englishFont: 'Poppins', sans-serif;
+}
+
+.bangla-font {
+	font-family: var(--banglaFont);
+}
+.bangla-font-regular {
+	font-family: var(--banglaFont);
+	font-weight: 400;
+}
+.bangla-font-semibold {
+	font-family: var(--banglaFont);
+	font-weight: 600;
+}
+.bangla-font-bold {
+	font-family: var(--banglaFont);
+	font-weight: 700;
+}

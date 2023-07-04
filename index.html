@@ -1,23 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Uylab Project 1</title>
+		<title>Uylab — A leading learning site </title>
+		<!-- favicon -->
+		<link rel="shortcut icon" type="image/png" href="images/favicon-16x16.png"/>
+		<link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png"/>
+		<link rel="shortcut icon" href="images/favicon.ico">
 		<!-- Required meta tags -->
+		<!-- Primary Meta Tags -->
 		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+		<meta name="title" content="Uylab — A leading learning site " />
+		<meta name="description" content="* Learn new skills
+			* Advance your career
+			* Expand your knowledge
+			* Stay up-to-date on the latest trends
+			* Connect with other learners
+			* Earn certificates of completion" />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="images/favicon-16x16.png" />
+		<meta property="og:url" content="https://web-template-ui-m.netlify.app/" />
+		<meta property="og:title" content="Uylab — A leading learning site " />
+		<meta property="og:description" content="* Learn new skills
+			* Advance your career
+			* Expand your knowledge
+			* Stay up-to-date on the latest trends
+			* Connect with other learners
+			* Earn certificates of completion" />
+		<meta property="og:image" content="images/uylab-m.png" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://web-template-ui-m.netlify.app/" />
+		<meta property="twitter:title" content="Uylab — A leading learning site " />
+		<meta property="twitter:description" content="* Learn new skills
+			* Advance your career
+			* Expand your knowledge
+			* Stay up-to-date on the latest trends
+			* Connect with other learners
+			* Earn certificates of completion" />
+		<meta property="twitter:image" content="images/uylab-m.png" />
+
+
 		<!-- Font-awesome v6.2.0 -->
         <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-    />
-	<!-- owl slider -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
+        referrerpolicy="no-referrer"/>
+
+		<!-- owl slider -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+
 		<!-- AOS -for animation -->
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
@@ -28,13 +65,18 @@
 			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
 			crossorigin="anonymous"
 		/>
+
 		<!--Custom CSS  -->
-		<link rel="stylesheet" href="css/common.css">
+		<link rel="stylesheet" href="css/plugins/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/components/common-header.css">
+		<link rel="stylesheet" href="css/components/common.css">
+		<link rel="stylesheet" href="css/components/btn.css">
 		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/header.css">
-		<link rel="stylesheet" href="css/course-bundle.css">
-		<link rel="stylesheet" href="css/footer.css" />
 		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="css/layout/header.css">
+		<link rel="stylesheet" href="css/layout/course-bundle.css">
+		<link rel="stylesheet" href="css/layout/footer.css">
+
 	</head>
 
 	<body>
@@ -117,7 +159,13 @@
 </header>  
   <!-- ========== End Header ========== -->
   
-
+<section id="fixed-cta">
+	<div class="fixed-cta">
+		<div class="cta-item-1"><img src="images/phone-icon.png" alt="phone-icon"></div>
+		<div class="cta-item-2"></div>
+		<div class="cta-item-3"><img src="images/Icon-Envelope.png" alt="Icon-Envelope"></div>
+	</div>
+</section>
   <!-- ========== Start Hero Section ========== -->
 <section id="hero">
 	<div class="container">
@@ -142,7 +190,7 @@
 				<div class="hero-main-pera">আন্তর্জাতিক মানের <span class="bangla-font-semibold">কোর্স মডিউল</span>  এবং <span class="bangla-font-semibold">দক্ষ মেন্টরের</span> সহায়তায় প্রফেশনাল স্কিল শিখুন; নিজেকে তৈরী করুন !</div>
 				<div class="hero-main-btn">
 					<a href="#" class="btn btn-primary">জয়েন করুন</a>
-					<a href="btn custom-main-btn">
+					<a href="#">
 						<img src="images/take_tour.png" class="img-fluid" alt="take_tour_btn">
 					</a>
 				</div>
@@ -718,7 +766,7 @@
 
 		<!-- ========== Start Footer ========== -->
 		
-	<footer class="footer footer-bg-blue footer-color py-5">
+	<footer class="footer footer-bg-blue footer-color ">
 			<div class="container">
 				<div class="row-footer">
 					<div class="col-row-1 col-row">
@@ -785,40 +833,36 @@
 				</div>
 			</div>
             <div class="hr container"></div>
-			<div class="container sticky mt-3">
-				<span class="sticky-right">
-					<a href="#" class="sticky-right-rm">Contact Us</a>
-					<a href="#">Terms</a>
-				</span>
-				<span class="left-sticky"
-					>&copy; কপিরাইট 2023 | UY LAB সমস্ত অধিকার সংরক্ষিত</span
-				>
-				
+			<div class="container sticky mt-3 text-center">
+				<a href="#" class="sticky-cursor">কপিরাইট © 2023 UY LAB । সমস্ত অধিকার সংরক্ষিত</a>
 			</div>
 		</footer>
 
 		<!-- ========== End Footer ========== -->
 
 		<!-- Jquery Libraries -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js" integrity="sha512-Pa4Jto+LuCGBHy2/POQEbTh0reuoiEXQWXGn8S7aRlhcwpVkO8+4uoZVSOqUjdCsE+77oygfu2Tl+7qGHGIWsw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js" integrity="sha512-Pa4Jto+LuCGBHy2/POQEbTh0reuoiEXQWXGn8S7aRlhcwpVkO8+4uoZVSOqUjdCsE+77oygfu2Tl+7qGHGIWsw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+		</script>
 
 		<!-- Bootstrap JavaScript Libraries -->
 		<script
 			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 			integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-			crossorigin="anonymous"
-		></script>
+			crossorigin="anonymous">
+		</script>
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
 			integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-			crossorigin="anonymous"
-		></script>
+			crossorigin="anonymous">
+		</script>
+
 		<!-- owl slider  -->
 		<script src="js/owl.carousel.min.js"></script>
+
 		<!-- AOS -animation -->
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 		<!-- Counter js plugins -->
 		<script src="js/counto.min.js"></script>
 		<script src="js/script.js"></script>

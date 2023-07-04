@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Poppins&display=swap');
 
---root {
-	--banglaFont: 'Baloo Da 2', cursive;
-	--footerFont: 'Poppins', sans-serif;
-	--whiteCustom: #f8f8f8;
-}
+@import url(../utility/color.css);
+@import url(../utility/common-class/font.css);
 
-body {
-	overflow-x: hidden;
-	box-sizing: border-box;
+footer {
+	padding: 2rem 0;
+	border-radius: 4rem 4rem 0 0;
+}
+.footer-bg-blue {
+	background-color: var(--blue-shade-8);
+}
+.footer-bg-white {
+	background-color: var(--white-shade-1);
 }
 footer .title {
-	font-family: 'Baloo Da 2', cursive;
+	font-family: var(--banglaFont);
 	font-size: 1.25rem;
 }
 footer i {
@@ -23,18 +26,18 @@ footer i {
 	border-radius: 0.5rem;
 }
 .row-footer {
-	color: #a9a9a9;
+	color: var(--gray-shade-4);
 	display: grid;
 	grid-template-columns: 30fr 35fr 20fr;
 	grid-row: 1;
 }
 .row-footer a {
-	color: #a9a9a9;
+	color: var(--gray-shade-4);
 	cursor: pointer;
 }
 .col-row-1 p {
 	width: 85%;
-	font-family: 'Poppins', sans-serif;
+	font-family: var(--englishFont);
 	font-size: 14px;
 	line-height: 30px;
 	margin-top: 1rem;
@@ -62,18 +65,19 @@ footer i {
 	line-height: 36px;
 	font-size: 14px;
 }
-.footer-bg-blue {
-	background-color: #1b2233;
-}
-.footer-bg-white {
-	background-color: #f8f8f8;
-}
+
 .footer-color {
 	color: #f8f8f8;
 }
 
 .link a {
 	display: block;
+}
+.footer .col-row-2 ul li a:hover {
+	box-sizing: border-box;
+	padding-left: 3px;
+	color: var(--blue-shade-9);
+	scroll-behavior: smooth all 0.3s;
 }
 .footer-social {
 	display: flex;
@@ -90,22 +94,19 @@ footer i {
 	height: 2px;
 	background-color: #435a95;
 }
-.sticky {
-	font-size: 1rem;
-	color: #7d9fc1;
-	display: flex;
-	justify-content: space-between;
-}
+
+.sticky,
 .sticky a {
-	color: #7d9fc1;
+	color: var(--blue-shade-9);
 }
-.sticky-right {
-	order: 2;
-}
-.sticky-right-rm {
-	margin-right: 1.25rem;
+.sticky-cursor {
+	cursor: default;
 }
 @media (max-width: 767px) {
+	footer {
+		padding: 1.65rem 0;
+		border-radius: 2rem 2rem 0 0;
+	}
 	.row-footer {
 		display: block;
 	}
@@ -135,4 +136,24 @@ footer i {
 		margin-top: 0.5rem;
 		text-align: center;
 	}
+	.col-row-3 {
+		text-align: center;
+	}
+	.footer-social {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	/* tablet screens lg */
+}
+
+@media (min-width: 992px) and (max-width: 1920px) {
+	/* Pc screens sm / laptop screens  */
+}
+
+@media (min-width: 1920px) {
+	/* Pc screens lg / extra large  */
 }

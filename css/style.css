@@ -59,7 +59,7 @@ body {
 	width: 5rem;
 	height: 5rem;
 	border-radius: 100%;
-	background: #f33737;
+	background: #71bbff;
 	-webkit-animation: loader3 1.5s linear infinite;
 	animation: loader3 1.5s linear infinite;
 }
@@ -94,7 +94,37 @@ body {
 }
 
 /***** End pre loader *****/
+/***** fixed *****/
+#fixed-cta {
+	background: url(../images/fixed-shape.png) no-repeat center center;
+	background-clip: cover;
+	position: fixed;
+	top: 30%;
+	z-index: 999;
+	left: 0;
+}
+.fixed-cta {
+	width: 34px;
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cta-item-1,
+.cta-item-3 {
+	width: 45%;
+	cursor: pointer;
+}
+.cta-item-2 {
+	width: 10%;
+	height: 2px;
+	width: 100%;
+	background: #71bbff;
+	margin: 13px 0 10px 0;
+}
 
+/***** End fixed *****/
 /***** Hero Section *****/
 /* hero search section */
 #hero .hero-search-box {
