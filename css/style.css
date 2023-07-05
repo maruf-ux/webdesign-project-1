@@ -224,6 +224,10 @@ form a {
 	height: 240px;
 	position: relative;
 }
+.category-grid-box:hover {
+	animation: bounce; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 2s; /* don't forget to set a duration! */
+}
 .category-grid-box:hover p {
 	color: #fff;
 }
@@ -281,6 +285,10 @@ form a {
 }
 .community-para {
 	width: 81%;
+}
+.my-element {
+	animation: bounce; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 5s; /* don't forget to set a duration! */
 }
 /***** End Community Section *****/
 

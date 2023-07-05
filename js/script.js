@@ -30,6 +30,7 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
 $(function(){
     $('.counter-1').counto(80, 10000);
   });
@@ -42,5 +43,13 @@ $(function(){
 $(function(){
     $('.counter-4').counto(4000, 10000);
 });
+
+$(document).ready(function() {
+    $('.popup-link').magnificPopup({
+      type: 'iframe' // Specify the type as iframe
+      // Additional options can be configured here
+    });
+  });
+  
 
 AOS.init();
